@@ -4,7 +4,9 @@
 }
 
 main {
-    background: linear-gradient(to top right, #6fe8b7, #82edea);
+    /* background: linear-gradient(to top right, #6fe8b7, #82edea); */
+    background: url("assets/images/stars_and_mountains.jpg") no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     display: flex;
@@ -17,10 +19,10 @@ main {
     height: 70%;
     width: 70%;
     position: absolute;
-    border: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.145);
     border-radius: 1rem;
     z-index: 2;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem) saturate(160%);
 }
 
 .first-circle,
